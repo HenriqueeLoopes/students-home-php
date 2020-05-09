@@ -5,27 +5,26 @@ session_start();
 require_once 'classes/config.php';
 require_once 'mail.php';
 
-if (isset($_POST['esqueceusenha'])){
+if (isset($_POST['esqueceusenha'])) {
 
-    if (isset($_POST['email'])){
+    if (isset($_POST['email'])) {
 
         $email = $_POST['email'];
 
         $verifica1 = $con->query("SELECT email FROM cadastro WHERE email = '$email';");
 
-        if ($verifica1->num_rows <= 0){
+        if ($verifica1->num_rows <= 0) {
 
-            echo"<script language='javascript' type='text/javascript'>alert('Ooops, não encontramos nenhum cadastro com este email!');window.location.href='esqueceusenha.php';</script>";
+            echo "<script language='javascript' type='text/javascript'>alert('Ooops, não encontramos nenhum cadastro com este email!');window.location.href='esqueceusenha.php';</script>";
+        } else {
 
-        }else{
+            $nome = $con->query("SELECT nome FROM cadastro WHERE email = '$email';")->fetch_assoc()['nome'];
 
-        $nome = $con->query("SELECT nome FROM cadastro WHERE email = '$email';")->fetch_assoc()['nome'];
+            $senha = $con->query("SELECT senha FROM cadastro WHERE email = '$email';")->fetch_assoc()['senha'];
 
-        $senha = $con->query("SELECT senha FROM cadastro WHERE email = '$email';")->fetch_assoc()['senha'];
+            $subject = "[Student's Home] - esqueceu sua senha ?";
 
-        $subject = "[Student's Home] - esqueceu sua senha ?";
-
-        $message = "Prezado {$nome},<br />
+            $message = "Prezado {$nome},<br />
 
 Fomos informados de que voce esqueceu a sua senha, estamos deixando sua senha logo abaixo para que voce possa entrar em nosso site!
 
@@ -41,22 +40,22 @@ A equipe <strong>Student's Home</strong> agradece!<br /> <br />
 
 Esta é uma mensagem automatica, por favor não responda!";
 
-        if (EnviarEmail($nome, $email, $subject, $message)){
-            echo"<script language='javascript' type='text/javascript'>alert('Enviamos um email para voce!! verifique a caixa de entrada do seu email ;)');window.location.href='login.php';</script>";
-        }else{
-            echo"<script language='javascript' type='text/javascript'>alert('Erro ao enviar o email!;)');window.location.href='login.php';</script>";
+            if (EnviarEmail($nome, $email, $subject, $message)) {
+                echo "<script language='javascript' type='text/javascript'>alert('Enviamos um email para voce!! verifique a caixa de entrada do seu email ;)');window.location.href='login.php';</script>";
+            } else {
+                echo "<script language='javascript' type='text/javascript'>alert('Erro ao enviar o email!;)');window.location.href='login.php';</script>";
+            }
         }
-
-    }
-    }else{
-        echo"<script language='javascript' type='text/javascript'>alert('Ooops, tivemos um erro! tente novamente.');window.location.href='esqueceusenha.php';</script>";
+    } else {
+        echo "<script language='javascript' type='text/javascript'>alert('Ooops, tivemos um erro! tente novamente.');window.location.href='esqueceusenha.php';</script>";
     }
 }
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <title>Student's Home - Esqueceu a senha</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="author" content="Henrique Lopes">
@@ -82,7 +81,7 @@ Esta é uma mensagem automatica, por favor não responda!";
     <link rel="apple-touch-icon" sizes="144x144" href="/images/icone/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/images/icone/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/icone/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/images/icone/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/icone/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/icone/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/images/icone/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/icone/favicon-16x16.png">
@@ -95,75 +94,75 @@ Esta é uma mensagem automatica, por favor não responda!";
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-    <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="index.php">
 
-        <img src="images/logo.png" width="110" height="110" class="d-inline-block align-top" alt="Student's Home">
+            <img src="images/logo.png" width="110" height="110" class="d-inline-block align-top" alt="Student's Home">
 
-    </a>
+        </a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 
-        <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
 
-    </button>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarText">
+        <div class="collapse navbar-collapse" id="navbarText">
 
-        <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto">
 
-            <li class="nav-item">
+                <li class="nav-item">
 
-                <a class="nav-link btn btn-light" href="index.php">Inicio</a>
+                    <a class="nav-link btn btn-light" href="index.php">Inicio</a>
 
-            </li>
+                </li>
 
-            <li class="nav-item active">
+                <li class="nav-item active">
 
-                <a class="nav-link btn btn-light" href="hospedagem.php">Hospedagem<span class="sr-only">(Atual)</span></a>
+                    <a class="nav-link btn btn-light" href="hospedagem.php">Hospedagem<span class="sr-only">(Atual)</span></a>
 
-            </li>
+                </li>
 
-            <li class="nav-item">
+                <li class="nav-item">
 
-                <a class="nav-link btn btn-light" href="quemsomos.php">Quem Somos</a>
+                    <a class="nav-link btn btn-light" href="quemsomos.php">Quem Somos</a>
 
-            </li>
+                </li>
 
-            <li class="nav-item">
+                <li class="nav-item">
 
-                <a class="nav-link btn btn-light" href="faleconosco.php">Fale Conosco</a>
+                    <a class="nav-link btn btn-light" href="faleconosco.php">Fale Conosco</a>
 
-            </li>
+                </li>
 
-            <li class="nav-item">
+                <li class="nav-item">
 
-                <a class="nav-link btn btn-light" href="faq.php">FAQ</a>
+                    <a class="nav-link btn btn-light" href="faq.php">FAQ</a>
 
-            </li>
+                </li>
 
-            <li class="nav-item">
+                <li class="nav-item">
 
-                <a class="nav-link btn btn-light" href="parceiros.php">Parceiros</a>
+                    <a class="nav-link btn btn-light" href="parceiros.php">Parceiros</a>
 
-            </li>
+                </li>
 
-        </ul>
+            </ul>
 
-        <span class="navbar-text">
+            <span class="navbar-text">
 
-            <form action="login.php" method="post">
+                <form action="login.php" method="post">
 
-                <?php
+                    <?php
 
-                if (isset($_SESSION['nome'])) {
+                    if (isset($_SESSION['nome'])) {
 
-                    echo
+                        echo
 
-                        "<div class=\"dropdown\">
+                            "<div class=\"dropdown\">
 
-  <button class=\"btn btn-primary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Bem Vindo ". $_SESSION['nome'] ."</button>
+  <button class=\"btn btn-primary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Bem Vindo " . $_SESSION['nome'] . "</button>
 
   <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">
 
@@ -174,56 +173,56 @@ Esta é uma mensagem automatica, por favor não responda!";
   </div>
 
 </div>";
+                    } else {
 
-                }else{
+                        echo "<button class=\"btn btn-light\">Login/Cadastrar</button>";
+                    }
 
-                    echo "<button class=\"btn btn-light\">Login/Cadastrar</button>";
+                    ?>
 
-                }
+                </form>
 
-                ?>
+            </span>
 
-            </form>
+        </div>
 
-    </span>
+    </nav>
 
-    </div>
+    <br><br><br>
 
-</nav>
+    <div class="container align-content-center">
 
-<br><br><br>
+        <div class="row">
 
-<div class="container align-content-center">
+            <div class="col-md-12">
 
-    <div class="row">
+                <div class="card mb-4 box-shadow">
 
-        <div class="col-md-12">
+                    <div class="card-body">
 
-            <div class="card mb-4 box-shadow">
+                        <h1>Esqueceu a senha ?</h1>
 
-                <div class="card-body">
+                        <a>Digite abaixo o seu email cadastrado e vamos ajuda-lo a recuperar sua senha ;)</a><br>
 
-                    <h1>Esqueceu a senha ?</h1>
+                        <form action="esqueceusenha.php" method="post" name="esqueceusenha">
 
-                    <a>Digite abaixo o seu email cadastrado e vamos ajuda-lo a recuperar sua senha ;)</a><br>
+                            <div class="form-group">
 
-                    <form action="esqueceusenha.php" method="post" name="esqueceusenha">
+                                <label for="email">e-mail:</label>
 
-                        <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" minlength="10" required placeholder="abc@abc.com">
 
-                            <label for="email">e-mail:</label>
+                            </div>
 
-                            <input type="email" class="form-control" id="email" name="email" minlength="10" required placeholder="abc@abc.com">
+                            <div class="btn-group">
 
-                        </div>
+                                <button type="submit" name="esqueceusenha" id="esqueceusenha" class="btn btn-outline-success">Recuperar senha</button>&nbsp;
 
-                        <div class="btn-group">
+                            </div>
 
-                            <button type="submit" name="esqueceusenha" id="esqueceusenha" class="btn btn-outline-success">Recuperar senha</button>&nbsp;
+                        </form>
 
-                        </div>
-
-                    </form>
+                    </div>
 
                 </div>
 
@@ -233,31 +232,29 @@ Esta é uma mensagem automatica, por favor não responda!";
 
     </div>
 
-</div>
+    <br><br><br><br>
 
-<br><br><br><br>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
 
-<nav class="navbar fixed-bottom navbar-light bg-light">
+        <a class="navbar-brand" href="index.php">
 
-    <a class="navbar-brand" href="index.php">
+            <img src="images/logo.png" width="90" height="90" class="d-inline-block align-top" alt="Student's Home">
 
-        <img src="images/logo.png" width="90" height="90" class="d-inline-block align-top" alt="Student's Home">
+        </a>
 
-    </a>
+        <div class="btn-group">
 
-    <div class="btn-group">
+            <a href="<?php echo $LinkFacebook; ?>" class="navbar-brand fa fa-facebook align-items-center"></a>
 
-        <a href="<?php echo $LinkFacebook; ?>" class="navbar-brand fa fa-facebook align-items-center"></a>
+            <a href="<?php echo $LinkTwitter; ?>" class="navbar-brand fa fa-twitter align-items-center"></a>
 
-        <a href="<?php echo $LinkTwitter; ?>" class="navbar-brand fa fa-twitter align-items-center"></a>
+            <a href="<?php echo $LinkInstagram; ?>" class="navbar-brand fa fa-instagram align-items-center"></a>
 
-        <a href="<?php echo $LinkInstagram; ?>" class="navbar-brand fa fa-instagram align-items-center"></a>
+        </div>
 
-    </div>
+        <span class="float-right"><?php echo $Copyright; ?></span>
 
-    <span class="float-right"><?php echo $Copyright; ?></span>
-
-</nav>
+    </nav>
 
 </body>
 

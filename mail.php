@@ -36,4 +36,3 @@ function EnviarEmail($NameTo, $emailto, $emailtitle, $emailbody){
         return "Email não pode ser enviado: {$mail->ErrorInfo}";
     }
 }
-?>

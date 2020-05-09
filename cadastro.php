@@ -40,7 +40,7 @@ if (isset($_POST['cadastrar'])) {
                 echo "<script language='javascript' type='text/javascript'>alert('Ocorreu um erro ao realizar o cadastro! ERRO: 105';</script>";
                 header("Location: cadastro.php");
             }
-            echo"<script language='javascript' type='text/javascript'>alert('Cadastro realizado com sucesso, verifique o seu email para confirmar a conta!');window.location.href='login.php';</script>";
+            echo "<script language='javascript' type='text/javascript'>alert('Cadastro realizado com sucesso, verifique o seu email para confirmar a conta!');window.location.href='login.php';</script>";
             $con->close();
 
             $subject = "Confirmação de Cadastro - Student's Home";
@@ -57,18 +57,18 @@ efetuado o login com os seguintes dados abaixo:<br > <br />
 A equipe <strong>Student's Home</strong> agradece!<br /> <br />
 Esta é uma mensagem automatica, por favor não responda!";
 
-            if (EnviarEmail($nome, $email, $subject, $message)){
-                echo"<script language='javascript' type='text/javascript'>alert('Enviamos um email para voce!! verifique a caixa de entrada do seu email ;)');window.location.href='login.php';</script>";
-            }else{
-                echo"<script language='javascript' type='text/javascript'>alert('Erro ao enviar o email!;)');window.location.href='cadastro.php';</script>";
+            if (EnviarEmail($nome, $email, $subject, $message)) {
+                echo "<script language='javascript' type='text/javascript'>alert('Enviamos um email para voce!! verifique a caixa de entrada do seu email ;)');window.location.href='login.php';</script>";
+            } else {
+                echo "<script language='javascript' type='text/javascript'>alert('Erro ao enviar o email!;)');window.location.href='cadastro.php';</script>";
             }
         }
-        }
-
+    }
 }
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <title>Student's Home - Cadastro</title>
@@ -96,7 +96,7 @@ Esta é uma mensagem automatica, por favor não responda!";
     <link rel="apple-touch-icon" sizes="144x144" href="/images/icone/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/images/icone/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/icone/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/images/icone/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/icone/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/icone/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/images/icone/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/icone/favicon-16x16.png">
@@ -106,107 +106,109 @@ Esta é uma mensagem automatica, por favor não responda!";
     <meta name="theme-color" content="#ffffff">
     <!-- FAVICON -->
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.php">
-        <img src="images/logo.png" width="110" height="110" class="d-inline-block align-top" alt="Student's Home">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link btn btn-light" href="index.php">Inicio</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link btn btn-light" href="hospedagem.php">Hospedagem<span class="sr-only">(Atual)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link btn btn-light" href="quemsomos.php">Quem Somos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link btn btn-light" href="faleconosco.php">Fale Conosco</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link btn btn-light" href="faq.php">FAQ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link btn btn-light" href="parceiros.php">Parceiros</a>
-            </li>
-        </ul>
-        <span class="navbar-text">
-            <form action="login.php" method="post">
-                <?php
-                if (isset($_SESSION['nome'])) {
-                    echo
-                        "<div class=\"dropdown\">
-  <button class=\"btn btn-primary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Bem Vindo ". $_SESSION['nome'] ."</button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.php">
+            <img src="images/logo.png" width="110" height="110" class="d-inline-block align-top" alt="Student's Home">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light" href="index.php">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link btn btn-light" href="hospedagem.php">Hospedagem<span class="sr-only">(Atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light" href="quemsomos.php">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light" href="faleconosco.php">Fale Conosco</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light" href="faq.php">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light" href="parceiros.php">Parceiros</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                <form action="login.php" method="post">
+                    <?php
+                    if (isset($_SESSION['nome'])) {
+                        echo
+                            "<div class=\"dropdown\">
+  <button class=\"btn btn-primary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Bem Vindo " . $_SESSION['nome'] . "</button>
   <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">
     <a class=\"dropdown-item\" href=\"minhaconta.php\">Minha Conta</a>
     <a class=\"dropdown-item\" href=\"login.php?acao=logout\">Sair</a>
   </div>
 </div>";
-                }else{
-                    echo "<button class=\"btn btn-light\">Login/Cadastrar</button>";
-                }
-                ?>
-            </form>
-    </span>
-    </div>
-</nav>
-<br><br><br>
-<div class="container align-content-center">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                    <h1>Faça parte da Student's Home Já !</h1>
-                    <a>preencha os campos abaixo para completar o cadastro.</a><br><br>
-                    <form action="cadastro.php" method="post" name="cadastrar">
-                        <div class="form-group">
-                            <label for="nome">Nome:</label>
-                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Ex: João" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="sobrenome">Sobrenome:</label>
-                            <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Ex: Mendes" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">E-mail:</label>
-                            <input type="email" class="form-control" id="email" name="email" required maxlength="36" placeholder="abc@abc.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="senha">Senha:</label>
-                            <input type="password" class="form-control" id="senha" name="senha" required minlength="6"  maxlength="18" placeholder="Min de 6 caracteres.">
-                        </div>
-                        <div class="form-group">
-                            <label for="confirmarsenha">Senha:</label>
-                            <input type="password" class="form-control" id="confirmarsenha" name="confirmarsenha" minlength="6" maxlength="18" required placeholder="Confirme sua senha">
-                        </div>
-                        <input type="hidden" name="cadastrar" id="cadastrar" value="cadastrar">
-                        <div class="btn-group">
-                        <button type="submit" class="btn btn-outline-success">Cadastrar</button>&nbsp;
-                            <a href="login.php" class="btn btn-outline-danger">Já possui uma conta?</a>
-                        </div>
-                    </form>
+                    } else {
+                        echo "<button class=\"btn btn-light\">Login/Cadastrar</button>";
+                    }
+                    ?>
+                </form>
+            </span>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="container align-content-center">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                    <div class="card-body">
+                        <h1>Faça parte da Student's Home Já !</h1>
+                        <a>preencha os campos abaixo para completar o cadastro.</a><br><br>
+                        <form action="cadastro.php" method="post" name="cadastrar">
+                            <div class="form-group">
+                                <label for="nome">Nome:</label>
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Ex: João" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sobrenome">Sobrenome:</label>
+                                <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Ex: Mendes" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" class="form-control" id="email" name="email" required maxlength="36" placeholder="abc@abc.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="senha">Senha:</label>
+                                <input type="password" class="form-control" id="senha" name="senha" required minlength="6" maxlength="18" placeholder="Min de 6 caracteres.">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmarsenha">Senha:</label>
+                                <input type="password" class="form-control" id="confirmarsenha" name="confirmarsenha" minlength="6" maxlength="18" required placeholder="Confirme sua senha">
+                            </div>
+                            <input type="hidden" name="cadastrar" id="cadastrar" value="cadastrar">
+                            <div class="btn-group">
+                                <button type="submit" class="btn btn-outline-success">Cadastrar</button>&nbsp;
+                                <a href="login.php" class="btn btn-outline-danger">Já possui uma conta?</a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<br><br><br><br>
-<nav class="navbar fixed-bottom navbar-light bg-light">
-    <a class="navbar-brand" href="index.php">
-        <img src="images/logo.png" width="90" height="90" class="d-inline-block align-top" alt="Student's Home">
-    </a>
-    <div class="btn-group">
-        <a href="<?php echo $LinkFacebook; ?>" class="navbar-brand fa fa-facebook align-items-center"></a>
-        <a href="<?php echo $LinkTwitter; ?>" class="navbar-brand fa fa-twitter align-items-center"></a>
-        <a href="<?php echo $LinkInstagram; ?>" class="navbar-brand fa fa-instagram align-items-center"></a>
-    </div>
-    <span class="float-right"><?php echo $Copyright; ?></span>
-</nav>
+    <br><br><br><br>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <a class="navbar-brand" href="index.php">
+            <img src="images/logo.png" width="90" height="90" class="d-inline-block align-top" alt="Student's Home">
+        </a>
+        <div class="btn-group">
+            <a href="<?php echo $LinkFacebook; ?>" class="navbar-brand fa fa-facebook align-items-center"></a>
+            <a href="<?php echo $LinkTwitter; ?>" class="navbar-brand fa fa-twitter align-items-center"></a>
+            <a href="<?php echo $LinkInstagram; ?>" class="navbar-brand fa fa-instagram align-items-center"></a>
+        </div>
+        <span class="float-right"><?php echo $Copyright; ?></span>
+    </nav>
 </body>
+
 </html>
