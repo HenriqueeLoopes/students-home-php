@@ -1,5 +1,3 @@
 
-backup/QuemSomos - backup.html
-backup/minhaconta.php
-backup/meuspontos.php
-backup/backup.php
+backup/*
+.idea
