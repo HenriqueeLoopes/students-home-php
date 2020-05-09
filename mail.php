@@ -20,8 +20,9 @@ function EnviarEmail($NameTo, $emailto, $emailtitle, $emailbody){
         $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
     
         //Recipients
-        $mail->setFrom('studentshometcc@gmail.com', "Student's Home");
+        $mail->setFrom('nao-responda@studentshome.tk', "Student's Home");
         $mail->addAddress($emailto, $NameTo);     // Add a recipient
+        $mail->addReplyTo('nao-responda@studentshome.tk', "Student's Home");
     
         // Content
         $mail->isHTML(true);                                  // Set email format to HTML

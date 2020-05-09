@@ -2,7 +2,7 @@
 error_reporting(E_ALL ^ E_DEPRECATED);
 ini_set('display_errors', '0');
 session_start();
-require 'classes/config.php';
+require_once 'classes/config.php';
 require_once 'mail.php';
 
 if (isset($_POST['esqueceusenha'])){
@@ -41,13 +41,10 @@ A equipe <strong>Student's Home</strong> agradece!<br /> <br />
 
 Esta é uma mensagem automatica, por favor não responda!";
 
-        EnviarEmail($nome, $email, $subject, $message);
-
         if (EnviarEmail($nome, $email, $subject, $message)){
             echo"<script language='javascript' type='text/javascript'>alert('Enviamos um email para voce!! verifique a caixa de entrada do seu email ;)');window.location.href='login.php';</script>";
-            echo "Email enviado com sucesso!";
         }else{
-            echo "Erro!";
+            echo"<script language='javascript' type='text/javascript'>alert('Erro ao enviar o email!;)');window.location.href='login.php';</script>";
         }
 
     }
