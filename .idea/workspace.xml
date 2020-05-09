@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb1dcfb0-8717-4a7f-a7ea-572b3e3d0f8b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BBHOST" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-880252637">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="6" />
+          <entry key="html" value="7" />
+          <entry key="php" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="7" />
+          <entry key="PHP" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="18" />
+          <entry key="html" value="15" />
+          <entry key="php" value="1496" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="18" />
+          <entry key="HTML" value="15" />
+          <entry key="PHP" value="1496" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-440328776">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="91" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="5" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="15" />
+          <entry key="project.open.time.6" value="24" />
+          <entry key="project.open.time.7" value="14" />
+          <entry key="project.open.time.8" value="6" />
+          <entry key="project.open.time.9" value="13" />
+          <entry key="project.opened" value="96" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="atendimento" value="1" />
+          <entry key="cadastro" value="1" />
+          <entry key="css" value="10" />
+          <entry key="hospedagens" value="1" />
+          <entry key="htaccess" value="1" />
+          <entry key="html" value="26" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="4" />
+          <entry key="php" value="513" />
+          <entry key="png" value="2" />
+          <entry key="sql" value="2" />
+          <entry key="usuarios" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="10" />
+          <entry key="Database Element" value="4" />
+          <entry key="HTML" value="26" />
+          <entry key="Image" value="3" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PHP" value="513" />
+          <entry key="Scratch" value="2" />
+          <entry key="htaccess" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="46" />
+          <entry key="html" value="174" />
+          <entry key="js" value="33" />
+          <entry key="php" value="26583" />
+          <entry key="sql" value="61" />
+          <entry key="txt" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="46" />
+          <entry key="HTML" value="182" />
+          <entry key="JavaScript" value="33" />
+          <entry key="PHP" value="26572" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="SQL" value="3" />
+          <entry key="Scratch" value="61" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Verona 2.0/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="103" column="64" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../default/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>box</find>
+      <find>list_cli</find>
+      <find>uk-panel-box</find>
+      <find>$ipRange</find>
+      <find>?&gt;</find>
+      <find>.navbar</find>
+      <find>tipo</find>
+      <find>categoria</find>
+      <find>uk</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\wamp64\www\tcc</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/QuemSomos - backup.html" />
+        <option value="$PROJECT_DIR$/hospedagem.html" />
+        <option value="$PROJECT_DIR$/../index.php" />
+        <option value="$PROJECT_DIR$/classes/textos.php" />
+        <option value="$PROJECT_DIR$/FaleConosco.php" />
+        <option value="$PROJECT_DIR$/FaleConosco.html" />
+        <option value="$PROJECT_DIR$/faq.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Parceiros.html" />
+        <option value="$PROJECT_DIR$/QuemSomos.html" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/logar.php" />
+        <option value="$PROJECT_DIR$/envia.php" />
+        <option value="$PROJECT_DIR$/ativar.php" />
+        <option value="$PROJECT_DIR$/logout.php" />
+        <option value="$PROJECT_DIR$/cadastro.html" />
+        <option value="$PROJECT_DIR$/QuemSomos.php" />
+        <option value="$PROJECT_DIR$/js/buscar-cep.js" />
+        <option value="D:/Downloads/Arquivos PACNET/pacnet geral/www/controle/pacoInfo/funcaoRankingAtd.php" />
+        <option value="$PROJECT_DIR$/../default/teste2.php" />
+        <option value="$PROJECT_DIR$/../default/classes/config.php" />
+        <option value="$PROJECT_DIR$/../default/classes/unifi.config.php" />
+        <option value="$PROJECT_DIR$/../default/index.php" />
+        <option value="$PROJECT_DIR$/../default/notificacoes.php" />
+        <option value="$PROJECT_DIR$/../default/authorized.php" />
+        <option value="$PROJECT_DIR$/../default/teste-backup.php" />
+        <option value="$PROJECT_DIR$/../default/backend.php" />
+        <option value="$PROJECT_DIR$/../default/teste.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/74ba6ac2-6277-4316-a28d-4f6903ede1c1/console.sql" />
+        <option value="$USER_HOME$/Desktop/hospedagem.php" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/74ba6ac2-6277-4316-a28d-4f6903ede1c1/console_1.sql" />
+        <option value="$PROJECT_DIR$/teste.php" />
+        <option value="$PROJECT_DIR$/atualizar.php" />
+        <option value="$PROJECT_DIR$/css/background.css" />
+        <option value="$PROJECT_DIR$/backend.php" />
+        <option value="$PROJECT_DIR$/classes/config.php" />
+        <option value="$PROJECT_DIR$/hospedagem.php" />
+        <option value="$PROJECT_DIR$/cadastro.php" />
+        <option value="$PROJECT_DIR$/detalhes.php" />
+        <option value="$PROJECT_DIR$/esqueceusenha.php" />
+        <option value="$PROJECT_DIR$/faleconosco.php" />
+        <option value="$PROJECT_DIR$/faq.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/minhaconta.php" />
+        <option value="$PROJECT_DIR$/parceiros.php" />
+        <option value="$PROJECT_DIR$/quemsomos.php" />
+        <option value="$PROJECT_DIR$/../Verona 2.0/css/background.css" />
+        <option value="$PROJECT_DIR$/../Verona 2.0/classes/config.php" />
+        <option value="$PROJECT_DIR$/../Verona 2.0/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="Verona 2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="Verona 2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="tcc" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="D:/Downloads/Arquivos PACNET/pacnet geral/www" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Verona 2.0\images" />
+      <recent name="C:\wamp64\www\Verona 2.0\classes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb1dcfb0-8717-4a7f-a7ea-572b3e3d0f8b" name="Default" comment="" />
+      <created>1533057142249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533057142249</updated>
+      <workItem from="1533057143468" duration="9135000" />
+      <workItem from="1533074234571" duration="137000" />
+      <workItem from="1533077243360" duration="5389000" />
+      <workItem from="1533086284213" duration="101000" />
+      <workItem from="1533141990057" duration="4557000" />
+      <workItem from="1533151181618" duration="2050000" />
+      <workItem from="1533153374753" duration="649000" />
+      <workItem from="1533228842028" duration="8366000" />
+      <workItem from="1533329818295" duration="42000" />
+      <workItem from="1533329860947" duration="69000" />
+      <workItem from="1533329930298" duration="17000" />
+      <workItem from="1533329948127" duration="318000" />
+      <workItem from="1533330301385" duration="18906000" />
+      <workItem from="1533355127659" duration="655000" />
+      <workItem from="1533356670864" duration="17000" />
+      <workItem from="1534377094643" duration="879000" />
+      <workItem from="1534378144561" duration="878000" />
+      <workItem from="1534786593112" duration="4092000" />
+      <workItem from="1534800636561" duration="1244000" />
+      <workItem from="1534804515456" duration="1382000" />
+      <workItem from="1534809619042" duration="69000" />
+      <workItem from="1534811469117" duration="270000" />
+      <workItem from="1534887191295" duration="175000" />
+      <workItem from="1534888753652" duration="344000" />
+      <workItem from="1534891568668" duration="226000" />
+      <workItem from="1534896281028" duration="2954000" />
+      <workItem from="1534899518568" duration="103000" />
+      <workItem from="1534901257011" duration="96000" />
+      <workItem from="1534974380063" duration="2839000" />
+      <workItem from="1534984317923" duration="256000" />
+      <workItem from="1534985152460" duration="1425000" />
+      <workItem from="1534988801192" duration="118000" />
+      <workItem from="1535064077282" duration="134000" />
+      <workItem from="1535065307747" duration="2361000" />
+      <workItem from="1535147488141" duration="280000" />
+      <workItem from="1535148013203" duration="2219000" />
+      <workItem from="1535150413347" duration="3989000" />
+      <workItem from="1535224597840" duration="448000" />
+      <workItem from="1535237946378" duration="112000" />
+      <workItem from="1535306465208" duration="348000" />
+      <workItem from="1535313220416" duration="198000" />
+      <workItem from="1535405639143" duration="4501000" />
+      <workItem from="1535410643169" duration="846000" />
+      <workItem from="1535411944365" duration="735000" />
+      <workItem from="1535419098958" duration="258000" />
+      <workItem from="1535420060844" duration="312000" />
+      <workItem from="1535491326742" duration="1505000" />
+      <workItem from="1535493814509" duration="3413000" />
+      <workItem from="1535501182943" duration="101000" />
+      <workItem from="1535502883169" duration="51000" />
+      <workItem from="1535503088757" duration="76000" />
+      <workItem from="1535504664053" duration="83000" />
+      <workItem from="1535508904746" duration="79000" />
+      <workItem from="1535509012751" duration="96000" />
+      <workItem from="1535578596708" duration="234000" />
+      <workItem from="1535581471898" duration="36000" />
+      <workItem from="1535668344556" duration="18000" />
+      <workItem from="1535771166523" duration="84000" />
+      <workItem from="1536361671348" duration="4066000" />
+      <workItem from="1536366164586" duration="722000" />
+      <workItem from="1536962790542" duration="694000" />
+      <workItem from="1537391953328" duration="2238000" />
+      <workItem from="1537634932004" duration="323000" />
+      <workItem from="1537638023001" duration="505000" />
+      <workItem from="1537654300500" duration="1147000" />
+      <workItem from="1537910637254" duration="418000" />
+      <workItem from="1537922206911" duration="80000" />
+      <workItem from="1537977485097" duration="177000" />
+      <workItem from="1537997903855" duration="1179000" />
+      <workItem from="1538517358903" duration="307000" />
+      <workItem from="1539376424136" duration="76000" />
+      <workItem from="1539533101174" duration="76000" />
+      <workItem from="1539533244338" duration="25000" />
+      <workItem from="1540511788499" duration="3825000" />
+      <workItem from="1540568949955" duration="1594000" />
+      <workItem from="1540590825163" duration="227000" />
+      <workItem from="1540591468821" duration="6185000" />
+      <workItem from="1540750703555" duration="213000" />
+      <workItem from="1540762805997" duration="727000" />
+      <workItem from="1541627113002" duration="160000" />
+      <workItem from="1541879367564" duration="5460000" />
+      <workItem from="1541981517628" duration="228000" />
+      <workItem from="1542148812346" duration="1400000" />
+      <workItem from="1542228509047" duration="249000" />
+      <workItem from="1542234760427" duration="8000" />
+      <workItem from="1542239635149" duration="5854000" />
+      <workItem from="1542386931805" duration="1381000" />
+      <workItem from="1542410436268" duration="3972000" />
+      <workItem from="1542420436304" duration="3601000" />
+      <workItem from="1542473867364" duration="349000" />
+      <workItem from="1542477755721" duration="4161000" />
+      <workItem from="1542555089773" duration="463000" />
+      <workItem from="1542556878699" duration="358000" />
+      <workItem from="1542557478245" duration="1286000" />
+      <workItem from="1542636057280" duration="103000" />
+      <workItem from="1542661094552" duration="3574000" />
+      <workItem from="1542797617160" duration="841000" />
+      <workItem from="1542798619968" duration="5303000" />
+      <workItem from="1542834802064" duration="145000" />
+      <workItem from="1542836082515" duration="319000" />
+      <workItem from="1542836457664" duration="686000" />
+      <workItem from="1543003344523" duration="1003000" />
+      <workItem from="1543005032820" duration="4698000" />
+      <workItem from="1543081395970" duration="1255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="161936000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3275488" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.20173536" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.24040511" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/Downloads/Arquivos PACNET/pacnet geral/www/controle/pacoInfo/funcaoRankingAtd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Downloads/Arquivos PACNET/pacnet geral/www/controle/pacoInfo/rankingAtd.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Downloads/Arquivos PACNET/pacnet geral/www/controle/pacoInfo/pisCofins.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../default/classes/config.php" />
+    <entry file="file://$PROJECT_DIR$/../default/classes/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../default/teste2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="93" column="2" lean-forward="true" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Downloads/Arquivos PACNET/pacnet geral/www/controle/pacoInfo/funcaoProdutos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="1595" column="9" selection-start-line="1595" selection-start-column="9" selection-end-line="1595" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../default/notificacoes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../default/teste-backup.php" />
+    <entry file="file://$PROJECT_DIR$/../default/teste - Copia.php" />
+    <entry file="file://$PROJECT_DIR$/../default/backend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="182" column="428" selection-start-line="182" selection-start-column="428" selection-end-line="182" selection-end-column="428" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../default/teste.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/74ba6ac2-6277-4316-a28d-4f6903ede1c1/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://74ba6ac2-6277-4316-a28d-4f6903ede1c1/schema/veronasa_tcc/table/usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://74ba6ac2-6277-4316-a28d-4f6903ede1c1/schema/veronasa_tcc/table/hospedagens">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/hospedagem.php" />
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="12476" column="1" selection-start-line="12476" selection-start-column="1" selection-end-line="12476" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/74ba6ac2-6277-4316-a28d-4f6903ede1c1/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://74ba6ac2-6277-4316-a28d-4f6903ede1c1/schema/veronasa_tcc/table/cadastro">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://74ba6ac2-6277-4316-a28d-4f6903ede1c1/schema/veronasa_tcc/table/atendimento">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend.php" />
+    <entry file="file://$PROJECT_DIR$/detalhes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="6" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esqueceusenha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="6" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hospedagem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" selection-start-line="89" selection-end-line="136" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parceiros.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quemsomos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../authorized.php" />
+    <entry file="file://$PROJECT_DIR$/../Verona 2.0/classes/Client.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../index3.html" />
+    <entry file="file://$PROJECT_DIR$/classes/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Verona 2.0/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cadastro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/background.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../default/classes/unifi.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../default/classes/unifi.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1291">
+          <caret line="94" column="8" lean-forward="true" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../default/images/coffee&amp;laptop.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Verona 2.0/css/background.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faleconosco.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="147" selection-start-line="147" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/buscar-cep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minhaconta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="333" column="20" selection-start-line="333" selection-start-column="20" selection-end-line="333" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atualizar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="141" selection-start-line="141" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="201" column="70" selection-start-line="201" selection-start-column="64" selection-end-line="201" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../default/authorized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="54" column="49" lean-forward="true" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Verona 2.0/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Verona 2.0/classes/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../default/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Verona 2.0/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="103" column="64" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
