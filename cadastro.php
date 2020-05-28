@@ -43,13 +43,12 @@ if (isset($_POST['cadastrar'])) {
             echo "<script language='javascript' type='text/javascript'>alert('Cadastro realizado com sucesso, verifique o seu email para confirmar a conta!');window.location.href='login.php';</script>";
             $con->close();
 
-            $subject = "Confirmação de Cadastro - Student's Home";
+            $subject = "Confirmacao de Cadastro - Student's Home";
             $message = "Prezado {$nome},<br />
-Obrigado pelo seu cadastro em nosso site, <a href='https://www.studentshome.tk'> https://www.studentshome.tk</a>!<br/><br/>
+Obrigado pelo seu cadastro em nosso site, <a href='https://www.studentshome.tk'>Student's Home</a>!<br/><br/>
 Para confirmar seu cadastro e ativar sua conta em nosso site, podendo acessar areas exclusivas, por favor clique no link abaixo ou copie e cole na barra de
 endereço do seu navegador.<br /> <br />
-<a href='http://www.studentshome.tk/login.php?acao=ativar&id={$id_usuario}'>Ativar Conta</a>
-<br/><br/>
+<a href='https://studentshome.tk/login.php?acao=ativar&id={$id_usuario}'>Ativar minha conta</a><br/><br/>
 Apos a ativacao de sua conta, voce podera ter acesso ao conteudo exclusivo
 efetuado o login com os seguintes dados abaixo:<br > <br />
 <strong>email:</strong> {$email}<br />
