@@ -99,7 +99,7 @@ require 'classes/config.php';
         <div class="row">
             <div class="col-md-4">
                 <div class="card-body">
-                    <img src="images/quadrado-preto.png" class="img-thumbnail">
+                    <img src="images/parceiros-quadrado-preto.jpg" class="img-thumbnail">
                 </div>
             </div>
             <div class="col-md-7">

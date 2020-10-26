@@ -99,12 +99,12 @@ require 'classes/config.php';
         <div class="row">
             <div class="col-md-5">
                 <div class="card-body">
-                    <img src="images/quadrado-preto-quemsomos.png" class="img-thumbnail">
+                    <img src="images/quadrado-preto-quemsomos.jpg" class="img-thumbnail">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card-body">
-                    <img src="images/quemsomos.png" class="img-thumbnail">
+                    <img src="images/quemsomos.jpg" class="img-thumbnail">
                 </div>
             </div>
         </div>
